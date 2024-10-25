@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding-top: 80px;
+  font-family: italic;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+}
+
+.header {
+  background-color: #4b3a14;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.header .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.header .nav-container img {
+  max-width: 100%;
+}
+.header .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.header .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.header .nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu .categorie {
+    flex-direction: column;
+  }
+  .categorie {
+    flex-direction: column;
+  }
+}
+.menu {
+  background-color: #ffe9c3;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.menu h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4b3a14;
+}
+.menu .categorie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu .categorie .entree, .menu .categorie .plats, .menu .categorie .desserts {
+  flex: 1 1 calc(30% - 20px);
+  margin: 10px;
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.menu .categorie .dish {
+  margin-bottom: 15px;
+}
+.menu .categorie .dish h4 {
+  color: #4b3a14;
+}
+.menu .categorie .dish p {
+  color: #555;
+}
+.menu .categorie .dish .price {
+  font-weight: bold;
+  color: #4b3a14;
+}
+
+.about, .contact {
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+.about h2, .contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4b3a14;
+}
+.about p, .contact p {
+  text-align: center;
+  color: #333;
+}
+
+.carte-interactive {
+  display: flex;
+  justify-content: center;
+}
+.carte-interactive iframe {
+  max-width: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #4b3a14;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer p {
+  color: #fff;
+}
+.footer .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer .social-links a {
+  color: #ffe9c3;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+.footer .social-links a:hover {
+  color: #ffe7a7;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+.about, .contact {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: $primary-color;
+    }
+
+    p {
+        text-align: center;
+        color: #333;
+    }
+}
+
+.carte-interactive {
+    display: flex;
+    justify-content: center;
+
+    iframe {
+        max-width: 100%;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+}

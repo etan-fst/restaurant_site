@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    font-family: $font-family;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+@import 'header';
+@import 'menu';
+@import 'about';
+@import 'footer';
